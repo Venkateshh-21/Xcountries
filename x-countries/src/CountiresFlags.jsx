@@ -12,7 +12,7 @@ useEffect( ()=>{
     // console.log(data)
     return setCountries(data)
     } catch (error) {
-        console.error("Failed to fetch data")
+        console.error("Error fetching data:")
     }
 }
 fetchData()
